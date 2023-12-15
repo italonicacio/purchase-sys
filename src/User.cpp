@@ -14,12 +14,12 @@ void User::SetName(std::string& name)
     m_name = name;
 }
 
-std::string User::GetName()
+std::string User::GetName() const
 {
     return m_name;
 }
 
-unsigned int User::GetId()
+unsigned int User::GetId() const
 {
     return m_id;
 }

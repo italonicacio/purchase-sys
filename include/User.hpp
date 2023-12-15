@@ -10,11 +10,11 @@ private:
 
 public:
     User();
-    User(const unsigned int m_id, const std::string& m_name);
+    User(const unsigned int id, const std::string& name);
 
     void SetName(std::string& name);
-    std::string GetName();
+    std::string GetName() const;
 
-    unsigned int GetId();
+    unsigned int GetId() const;
 
 };

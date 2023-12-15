@@ -9,7 +9,7 @@ int main(int argc, char* argv[])
 
     try
     {
-        app->Run();
+        app->Run(argc, argv);
     }
     catch(const std::exception& exception)
     {
